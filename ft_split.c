@@ -6,7 +6,7 @@
 /*   By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 22:04:40 by kpuwar            #+#    #+#             */
-/*   Updated: 2022/11/19 13:09:14 by kpuwar           ###   ########.fr       */
+/*   Updated: 2022/11/22 12:13:49 by kpuwar           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,13 +84,3 @@ char	**ft_split(char const *s, char c)
 	free(str);
 	return (ptr);
 }
-/*
-#include <stdio.h>
-int main(int argc, char const *argv[])
-{
-	char **string = ft_split("      split       this for   me  !       ", ' ');
-	while (*string)
-		printf("%s\n", *string++);
-	return 0;
-}
-*/
