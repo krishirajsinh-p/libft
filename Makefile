@@ -6,7 +6,7 @@
 #    By: kpuwar <kpuwar@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/26 21:08:59 by kpuwar            #+#    #+#              #
-#    Updated: 2022/11/19 12:40:40 by kpuwar           ###   ########.fr        #
+#    Updated: 2022/11/22 12:20:18 by kpuwar           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,3 +84,5 @@ re: fclean all
 
 bonus: $(OBJSB)
 	ar rc $(NAME) $(OBJSB)
+
+.PHONY: all clean fclean re bonus
