@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except for these files and directories
+!Makefile
+!.gitignore
+!src/
+!includes/
+
+# Allow subdirectories under src/ and includes/
+!src/**
+!includes/**
