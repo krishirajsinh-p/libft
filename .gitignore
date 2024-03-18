@@ -6,6 +6,8 @@
 !.gitignore
 !src/
 !includes/
+!subject/
+!README.md
 
 # Allow subdirectories under src/ and includes/
 !src/**
